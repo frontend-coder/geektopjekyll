@@ -1,0 +1,43 @@
+title: GeekTOP - Новости IT
+name: GeekTOP
+description: Новости мира IT, технологии и современные гаджеты
+
+themecolor: '#202225'
+imagehome: img/geektop.jpg
+url: 'https://geektop.top'
+baseurl: '/'
+
+plugins: [jekyll-paginate-v2]
+categiry_dir: blog
+pagination:
+  enable: true
+  per_page: 9
+  title: ':title - Страница :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+exclude:
+  [
+    'node_modules',
+    'gulpfile.js',
+    'package.json',
+    'package-lock.json',
+    'js/common.js',
+    'npm-debug.log',
+    'scss/libs.scss',
+    '**/Thumbs.db',
+    'libs',
+  ]
+
+soc:
+  <li><a href="#"><i class="fa fa-vk"></i></a></li>
+  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>
+  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+  <li><a href="#"><i class="fa fa-rss"></i></a></li>
+
+  copyright: Копирование контента и размещение на других сайтах запрещено.

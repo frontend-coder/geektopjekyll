@@ -1,0 +1,85 @@
+@import "var";
+
+// эти свойства по default
+*::-webkit-input-placeholder {
+color: $placeholdercolortext;
+opacity: 1;
+font-family: arial,sans-serif;
+}
+
+*::-moz-placeholder {
+color: $placeholdercolortext;
+	opacity: 1;
+	font-family: arial,sans-serif;
+}
+*::-ms-input-placeholder {
+color: $placeholdercolortext;
+	opacity: 1;
+	font-family: arial,sans-serif;
+}
+::placeholder {
+	color: $placeholdercolortext;
+	font-family: arial,sans-serif;
+}
+
+::selection {
+	background-color: $accent_color;
+	color: $white_color;
+}
+
+html{
+width: 100%;
+/* height: 100%; */
+font-size: $body_fontsize;
+line-height: $body_lineheight;
+margin:0;
+padding:0;
+-webkit-backface-visibility:hidden;
+/* overflow-x: hidden; */
+}
+
+body {
+	font-size: $body_fontsize;
+	min-width: 320px;
+	opacity: 1;
+	position: relative;
+	line-height: $body_lineheight;
+font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	overflow-x: hidden;
+	color: $body_color_text;
+	font-display: auto;
+	input, textarea {
+		border: #666 1px solid;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: red;
+		}
+		&:required:valid {
+			border-color: green;
+		}
+	}
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	&.img-width {
+		width: 100%;
+	}
+}
+
+@import "header"; // стили шапки сайта
+@import "allstyle"; // стили шапки сайта
+@import "footer"; // стили шапки сайта
+@import "media"; // Always at the end
+
+
+
+
+
+
+
+
+
+

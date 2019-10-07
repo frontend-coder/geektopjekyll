@@ -1,0 +1,4 @@
+/geektop/node_modules/
+/.git/
+/**/*.psd
+/**/Thumbs.db

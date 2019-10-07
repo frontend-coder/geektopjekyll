@@ -28,7 +28,7 @@ exclude:
     'package-lock.json',
     'js/common.js',
     'npm-debug.log',
-    'scss/libs.scss',
+    'scss',
     '**/Thumbs.db',
     'libs',
   ]
@@ -40,4 +40,3 @@ soc:
   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
   <li><a href="#"><i class="fa fa-rss"></i></a></li>
 
-  copyright: Копирование контента и размещение на других сайтах запрещено.

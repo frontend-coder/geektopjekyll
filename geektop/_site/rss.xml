@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>GeekTOP</title>
+		<description>Новости мира IT, технологии и современные гаджеты</description>
+		<link>https://geektop.top</link>
+		<atom:link href="https://geektop.top/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Welcome to Jekyll!</title>
+				<description><![CDATA[
+					<a href="https://geektop.top/jekyll/update/2019/10/07/welcome-to-jekyll.html"><img width="100%" src="https://geektop.top"></a>
+					
+					]]></description>
+				<pubDate>Mon, 07 Oct 2019 00:40:02 +0300</pubDate>
+				<link>https://geektop.top/jekyll/update/2019/10/07/welcome-to-jekyll.html</link>
+				<guid isPermaLink="true">https://geektop.top/jekyll/update/2019/10/07/welcome-to-jekyll.html</guid>
+			</item>
+		
+	</channel>
+</rss>

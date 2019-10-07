@@ -1,0 +1,93 @@
+
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "BaronBlack";
+	src: url("../fonts/BaronBlack/BaronBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BaronBlack/BaronBlack.woff") format("woff"),
+	url("../fonts/BaronBlack/BaronBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: "BaronBold";
+	src: url("../fonts/BaronBold/BaronBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BaronBold/BaronBold.woff") format("woff"),
+	url("../fonts/BaronBold/BaronBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RobotoBlack";
+	src: url("../fonts/RobotoBlack/RobotoBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoBlack/RobotoBlack.woff") format("woff"),
+	url("../fonts/RobotoBlack/RobotoBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
+	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+	url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+
+
+
+// 100 Extra Light or Ultra Light
+// 200 Light or Thin
+// 300 Book or Demi
+// 400 Normal or Regular
+// 500 Medium
+// 600 Semibold, Demibold
+// 700 Bold
+// 800 Black, Extra Bold or Heavy
+// 900 Extra Black, Fat, Poster or Ultra Black
+
+
+
+// 100 — тонкое начертание;
+// 200 — сверхсветлое;
+// 300 — светлое;
+// 400 — нормальное (аналогично normal);
+// 500 — среднее;
+// 600 — полужирное;
+// 700 — жирное (аналогично bold);
+// 800 — сверхжирное;
+// 900 — тяжёлое.
+// https://webfonts.pro/
+
+
+
+// @include font-face("Roboto", "../fonts/roboto/roboto-bold-italic", 700, italic, "maximum" );

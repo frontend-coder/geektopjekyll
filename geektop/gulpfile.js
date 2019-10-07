@@ -118,7 +118,7 @@ gulp.task('picture', done => {
 	done();
 });
 gulp.task('jekyllsite', done => {
-	return gulp.src(['_site/**/*.*']);
+	return gulp.src(['_site/*.html']);
 	done();
 });
 
@@ -128,7 +128,7 @@ gulp.task('watch', done => {
 	gulp.watch("libs/**/*.js", gulp.series('scripts'));
 	gulp.watch("*.html", gulp.series('code'));
 	gulp.watch("img/**/*.*", gulp.series('picture'));
-	gulp.watch("_site/**/*.*", gulp.series('jekyllsite'));
+	gulp.watch("_site/*.html", gulp.series('jekyllsite'));
 	done();
 });
 

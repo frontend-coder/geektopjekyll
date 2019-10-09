@@ -3,61 +3,24 @@
 				<div class="row clearfix">
 
 					<div class="col-sm-12">
-						<h2 class="type-one-header"><a href="#">DIY</a></h2>
+						<h2 class="type-one-header">
+							<a href="blog/diy/">DIY</a></h2>
 					</div>
 
 					<div class="col-md-7">
 
-						<div class="type-one-first">
-							<div class="pattern">
-								<a href="#" title="Как создать красивое освещение в виде шариков в своём доме">
-									<img src="img/blog/diy/1.jpg" alt="alt" class="img-responsive img-width">
-								</a>
+{% for post in site.categories.diy limit: 1 offset: 0 %}
+{% include /home-type-one-first.html %}
+{% endfor %}
 
-
-							</div>
-
-							<div class="item-social">
-								<div class="item-comments" title="Количество комментариев">
-									<i class="fa fa-comments"></i>
-									<a class="item-comments-count" href="#disqus_thread">26</a>
-									<span class="date">06/12/2017</span>
-								</div>
-							</div>
-							<h3><a href="#">Как создать красивое освещение в виде шариков в своём доме</a></h3>
-
-						</div>
 					</div>
 
 					<div class="col-md-5 item-title-white">
 
-						<div class="pattern">
-							<div class="overlay item-title" style="background-image: url(img/blog/diy/2.jpg)">
-								<div class="item-title-content">
-									<h3><a href="#">Красивая аутентичная буква а на стол своими руками</a></h3>
-									<div class="item-social">
-										<div class="item-comments" title="Количество комментариев">
-											<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">26</a>
-											<span class="date">06/12/2017</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+{% for post in site.categories.diy limit: 2 offset: 1 %}
+{% include /home-type-one-second.html %}
+{% endfor %}
 
-						<div class="pattern">
-							<div class="overlay item-title" style="background-image: url(img/blog/diy/3.jpg)">
-								<div class="item-title-content">
-									<h3><a href="#">Самодельные деревянные винты увеличенной площади для квадрокоптера</a></h3>
-									<div class="item-social">
-										<div class="item-comments" title="Количество комментариев">
-											<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">26</a>
-											<span class="date">06/12/2017</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

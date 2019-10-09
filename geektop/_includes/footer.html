@@ -2,23 +2,12 @@
 		<div class="contaiter">
 
 			<nav class="main-menu footer-menu">
-				<ul>
-					<li class="active"><a href="#">Электроника</a></li>
-					<li><a href="#">Новости IT</a></li>
-					<li><a href="#">Обзоры</a></li>
-					<li><a href="#">Лайфхаки</a></li>
-					<li><a href="#">DIY</a></li>
-					<li><a href="#">О сайте</a></li>
-				</ul>
+{% include /mein-menu.html %}
 			</nav>
 
 			<nav class="soc">
 				<ul>
-					<li><a href="#"><i class="fa fa-vk"></i></a></li>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fa fa-rss"></i></a></li>
+{{ site.soc }}
 				</ul>
 			</nav>
 
@@ -26,8 +15,8 @@
 	</footer>
 	<footer class="bottom-footer">
 		<div class="container text-center">
-			<div class="footer-copy">2018 © <span class="logo-footer logo-litera">smartdev.ru</span></div>
-			<p>Копирование контента и размещение на других сайтах запрещено.</p>
+			<div class="footer-copy">2019 © <span class="logo-footer logo-litera">{{ site.url }}</span></div>
+			<p>{{ site.copyright }}</p>
 		</div>
 	</footer><!-- /footer -->
 

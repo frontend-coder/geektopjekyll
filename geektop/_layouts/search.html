@@ -1,0 +1,47 @@
+{% include /header-home.html %}
+{% include /home-top-line.html %}
+
+	<section class="pattern pattern-cat-header">
+		<div class="cat-header overlay" style="background-image: url(img/blog/electronics/_test.jpg)">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="cat-header-block">
+					<h1>Результаты поиска</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="article-content">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-8">
+
+					<article class="main-article">
+
+						<div class="article-body">
+<div id="cse-search-results"></div>
+<script type="text/javascript">
+	var googleSearchIframeName = "cse-search-results";
+	var googleSearchFormName = "cse-search-box";
+	var googleSearchFrameWidth = 800;
+	var googleSearchDomain = "www.google.ru";
+	var googleSearchPath = "/cse";
+</script>
+<script type="text/javascript" src="https://www.google.com/afsonline/show_afs_search.js"></script>
+						</div>
+					</article>
+				</div>
+				<div class="col-md-4">
+
+{% include /page-aside.html %}
+
+				</div>
+			</div>
+		</div>
+	</div>
+{% include /footer.html %}

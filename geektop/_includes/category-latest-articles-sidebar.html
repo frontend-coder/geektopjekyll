@@ -4,7 +4,7 @@
 
 <div class="lb-list">
 
-	<div class="lb-item">
+<!-- 	<div class="lb-item">
 		<a href="#" class="lb-catname">Электроника</a>
 		<div class="lb-body">
 			<a class="lb-item-header" href="#">Потрясающие снимки на новый смартфон на Android</a>
@@ -15,12 +15,28 @@
 				</div>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="lb-item">
+		<a href="#" class="lb-catname">Новости IT</a>
+		<div class="lb-body">
+{% for post in site.categories.it-news limit: 1 offset 0 %}
+			<a class="lb-item-header" href="{{ post.url }}">{{ post.title }}</a>
+			<div class="lb-footer">
+				<div class="item-comments" title="Количество комментариев">
+					<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">!26</a>
+					<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
+				</div>
+			</div>
+{% endfor %}
+		</div>
 	</div>
+
 
 	<div class="lb-item">
 		<a href="#" class="lb-catname">Обзоры</a>
 		<div class="lb-body">
-			{% for post in site.categories.reviews limit: 1 offset 0 %}
+{% for post in site.categories.reviews limit: 1 offset 0 %}
 			<a class="lb-item-header" href="{{ post.url }}">{{ post.title }}</a>
 			<div class="lb-footer">
 				<div class="item-comments" title="Количество комментариев">
@@ -28,46 +44,39 @@
 					<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 				</div>
 			</div>
-			{% endfor %}
+{% endfor %}
 		</div>
 	</div>
 
-	<div class="lb-item">
-		<a href="#" class="lb-catname">Новости IT</a>
-		<div class="lb-body">
-			<a class="lb-item-header" href="#">Потрясающие снимки на новый смартфон на Android</a>
-			<div class="lb-footer">
-				<div class="item-comments" title="Количество комментариев">
-					<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">26</a>
-					<span class="date">25/12/2017</span>
-				</div>
-			</div>
-		</div>
-	</div>
+
 
 	<div class="lb-item">
 		<a href="#" class="lb-catname">Лайфхаки</a>
 		<div class="lb-body">
-			<a class="lb-item-header" href="#">Золотистый iPhone предыдущего поколения положили на тыкву. Потрясающие снимки на Android.</a>
+{% for post in site.categories.lifehacks limit: 1 offset 0 %}
+			<a class="lb-item-header" href="{{ post.url }}">{{ post.title }}</a>
 			<div class="lb-footer">
 				<div class="item-comments" title="Количество комментариев">
-					<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">26</a>
-					<span class="date">25/12/2017</span>
+					<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">!26</a>
+					<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 				</div>
 			</div>
+{% endfor %}
 		</div>
 	</div>
 
 	<div class="lb-item">
 		<a href="#" class="lb-catname">DIY</a>
 		<div class="lb-body">
-			<a class="lb-item-header" href="#">Потрясающие снимки на новый смартфон на Android</a>
+{% for post in site.categories.diy limit: 1 offset 0 %}
+			<a class="lb-item-header" href="{{ post.url }}">{{ post.title }}</a>
 			<div class="lb-footer">
 				<div class="item-comments" title="Количество комментариев">
-					<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">26</a>
-					<span class="date">25/12/2017</span>
+					<i class="fa fa-comments"></i><a class="item-comments-count" href="#disqus_thread">!26</a>
+					<span class="date">{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</span>
 				</div>
 			</div>
+{% endfor %}
 		</div>
 	</div>
 

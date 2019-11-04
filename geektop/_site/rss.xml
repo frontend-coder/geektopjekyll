@@ -3,117 +3,117 @@
 	<channel>
 		<title>smartDEV</title>
 		<description>Новости мира IT, технологии и современные гаджеты</description>
-		<link>http://localhost:3000</link>
-		<atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://smartdev.local/</link>
+		<atom:link href="http://smartdev.local//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Тестирую добавление постов на сайт в категорию новости</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/it-news/2019-12-10-pervaya-statya-dlya-sajta.html"><img width="100%" src="http://localhost:3000images/diy/2018/2018-01-09-razrabotchik-zapustil-slack-na-commodore-64/1.jpg"></a>
+					<a href="http://smartdev.local//blog/it-news/2019-12-10-pervaya-statya-dlya-sajta.html"><img width="100%" src="http://smartdev.local/images/diy/2018/2018-01-09-razrabotchik-zapustil-slack-na-commodore-64/1.jpg"></a>
 					Разработчик Джефф Харрис (Jeff Harris) написал клиент для популярного корпоративного мессенджера Slack, чтобы тот работал на Commodore 64.
 					]]></description>
-				<pubDate>Tue, 10 Dec 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/it-news/2019-12-10-pervaya-statya-dlya-sajta.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/it-news/2019-12-10-pervaya-statya-dlya-sajta.html</guid>
+				<pubDate>Tue, 10 Dec 2019 00:00:00 +0200</pubDate>
+				<link>http://smartdev.local//blog/it-news/2019-12-10-pervaya-statya-dlya-sajta.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/it-news/2019-12-10-pervaya-statya-dlya-sajta.html</guid>
 			</item>
 		
 			<item>
 				<title>Эта новость об испытании новых мониторов</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/it-news/2019-10-12-vtoray-statya-dlya-sajta.html"><img width="100%" src="http://localhost:3000images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/1.jpg"></a>
+					<a href="http://smartdev.local//blog/it-news/2019-10-12-vtoray-statya-dlya-sajta.html"><img width="100%" src="http://smartdev.local/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/1.jpg"></a>
 					Крутая разработка которая никогда не устареет
 					]]></description>
 				<pubDate>Sat, 12 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/it-news/2019-10-12-vtoray-statya-dlya-sajta.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/it-news/2019-10-12-vtoray-statya-dlya-sajta.html</guid>
+				<link>http://smartdev.local//blog/it-news/2019-10-12-vtoray-statya-dlya-sajta.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/it-news/2019-10-12-vtoray-statya-dlya-sajta.html</guid>
 			</item>
 		
 			<item>
 				<title>13 мышек для геймеров</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-12-13-mouse-for-gemer.html"><img width="100%" src="http://localhost:3000images/reviews/2018/13-mouse-for-gemer/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-12-13-mouse-for-gemer.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/13-mouse-for-gemer/1.jpg"></a>
 					Рассказываю о 13 мышек для геймеров
 					]]></description>
 				<pubDate>Sat, 12 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-12-13-mouse-for-gemer.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-12-13-mouse-for-gemer.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-12-13-mouse-for-gemer.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-12-13-mouse-for-gemer.html</guid>
 			</item>
 		
 			<item>
 				<title>100 ошибок при сбоке компьютеров</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-12-100-errorr-sborka-comtuterov.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-12-100-errorr-sborka-comtuterov.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Рассказываю о допускаемых ошибках при сбоке компьютеров
 					]]></description>
 				<pubDate>Sat, 12 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-12-100-errorr-sborka-comtuterov.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-12-100-errorr-sborka-comtuterov.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-12-100-errorr-sborka-comtuterov.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-12-100-errorr-sborka-comtuterov.html</guid>
 			</item>
 		
 			<item>
 				<title>Подсветка сомпьютеров для компьютеров</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-07-podsvetka-corpusov-dla-computerov.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-07-podsvetka-corpusov-dla-computerov.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Подсветка сомпьютеров для компьютеров
 					]]></description>
 				<pubDate>Mon, 07 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-07-podsvetka-corpusov-dla-computerov.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-07-podsvetka-corpusov-dla-computerov.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-07-podsvetka-corpusov-dla-computerov.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-07-podsvetka-corpusov-dla-computerov.html</guid>
 			</item>
 		
 			<item>
 				<title>Большой тест колонок 7.1</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-06-bolshoy-test-olonok-7-1.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-06-bolshoy-test-olonok-7-1.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Рассказываю Большой тест колонок 7.1
 					]]></description>
 				<pubDate>Sun, 06 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-06-bolshoy-test-olonok-7-1.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-06-bolshoy-test-olonok-7-1.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-06-bolshoy-test-olonok-7-1.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-06-bolshoy-test-olonok-7-1.html</guid>
 			</item>
 		
 			<item>
 				<title>Большой тест шлейфов для мониторов</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-06-bolshoy-test-sleyfov-dla-vonitirov.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-06-bolshoy-test-sleyfov-dla-vonitirov.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Большой тест шлейфов для мониторов
 					]]></description>
 				<pubDate>Sun, 06 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-06-bolshoy-test-sleyfov-dla-vonitirov.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-06-bolshoy-test-sleyfov-dla-vonitirov.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-06-bolshoy-test-sleyfov-dla-vonitirov.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-06-bolshoy-test-sleyfov-dla-vonitirov.html</guid>
 			</item>
 		
 			<item>
 				<title>Большой тест мониторов для дизайнеров</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-05-bolshoy-test-monitor-dla-dizainerov.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-05-bolshoy-test-monitor-dla-dizainerov.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Рассказываю Большой тест мониторов для дизайнеров
 					]]></description>
 				<pubDate>Sat, 05 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-05-bolshoy-test-monitor-dla-dizainerov.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-05-bolshoy-test-monitor-dla-dizainerov.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-05-bolshoy-test-monitor-dla-dizainerov.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-05-bolshoy-test-monitor-dla-dizainerov.html</guid>
 			</item>
 		
 			<item>
 				<title>Большой тест кулеров для процессоров</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-04-7-bolshoy-test-culerov-dla-processorov.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-04-7-bolshoy-test-culerov-dla-processorov.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Рассказываю Большой тест кулеров для процессоров
 					]]></description>
 				<pubDate>Fri, 04 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-04-7-bolshoy-test-culerov-dla-processorov.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-04-7-bolshoy-test-culerov-dla-processorov.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-04-7-bolshoy-test-culerov-dla-processorov.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-04-7-bolshoy-test-culerov-dla-processorov.html</guid>
 			</item>
 		
 			<item>
 				<title>Обкатка новособранного компьютера</title>
 				<description><![CDATA[
-					<a href="http://localhost:3000/blog/reviews/2019-10-04-obcatka-pk.html"><img width="100%" src="http://localhost:3000images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
+					<a href="http://smartdev.local//blog/reviews/2019-10-04-obcatka-pk.html"><img width="100%" src="http://smartdev.local/images/reviews/2018/100-errorr-sborka-comtuterov/1.jpg"></a>
 					Рассказываю Обкатка новособранного компьютера
 					]]></description>
 				<pubDate>Fri, 04 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:3000/blog/reviews/2019-10-04-obcatka-pk.html</link>
-				<guid isPermaLink="true">http://localhost:3000/blog/reviews/2019-10-04-obcatka-pk.html</guid>
+				<link>http://smartdev.local//blog/reviews/2019-10-04-obcatka-pk.html</link>
+				<guid isPermaLink="true">http://smartdev.local//blog/reviews/2019-10-04-obcatka-pk.html</guid>
 			</item>
 		
 	</channel>

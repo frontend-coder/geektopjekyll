@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
 $("body").prognroll({
 	height: 2,
 	color: "#ec1c1c",
@@ -14,7 +13,6 @@ $('.main-menu ul li a').each(function() {
 		$(this).parent('li').addClass('active');
 	}
 });
-
 
 $('.logo-litera').each(function(){
 let ths = $(this);
@@ -50,8 +48,4 @@ $('.col-item').hover(function(){
 }, function(){
 	lnk.removeClass('hover');
 });
-
-
-
-
 });
